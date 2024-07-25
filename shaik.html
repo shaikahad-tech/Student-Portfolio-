@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Ahad - College Preparation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <div class="profile-pic">
+            <img src="your-photo.jpg" alt="Shaik Ahad">
+        </div>
+        <h1>It's Shaik Ahad</h1>
+        <p>I'm a College Preparation Enthusiast.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#resources">RESOURCES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me:</h2>
+        <p>Hello Everyone! This is Shaik Ahad, a 20-year-old student from SRM University, AP, currently in my third year of the Computer Science and Engineering (CSE) branch. I am passionate about movies, cricket, music, and I also enjoy learning new skills. My hobbies reflect my diverse interests, and I enjoy spending my free time exploring new films, following cricket matches, and listening to my favorite songs and acquiring new skills. As I continue my education, I aim to deepen my knowledge and skills in the field of computer science while also indulging in my love for entertainment and sports.</p>
+    </section>
+    <section id="education">
+        <h2>Education:</h2>
+        <p>Currently pursuing a Bachelor's degree in Computer Science and Engineering (CSE) from SRM University, AP.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills:</h2>
+        <ul>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Programming Languages (Python, Java)</li>
+            <li>Database Management (MySQL, MongoDB)</li>
+            <li>Problem-Solving and Critical Thinking</li>
+        </ul>
+    </section>
+    <section id="resources">
+        <h2>Resources:</h2>
+        <ul>
+            <li><a href="https://www.khanacademy.org/">Khan Academy</a> - Free online courses and practice exercises.</li>
+            <li><a href="https://www.coursera.org/">Coursera</a> - Online courses from top universities.</li>
+            <li><a href="https://www.edx.org/">edX</a> - Online courses from leading institutions worldwide.</li>
+            <li><a href="https://www.udemy.com/">Udemy</a> - Online learning and teaching marketplace.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact:</h2>
+        <p>Email: shaikahad@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/shaikahad">Shaik Ahad</a></p>
+    </section>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #00ffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    border-bottom: 2px solid #00ffff;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .profile-pic {
+    position: relative;
+    z-index: 1;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+header h1, header p {
+    position: relative;
+    z-index: 1;
+    color: #00ffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #222;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00ffff;
+    font-weight: bold;
+}
+
+section {
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #00ffff;
+    border-radius: 10px;
+    background: url('section-bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+section h2, section p, section ul, section li {
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    color: #00ffff;
+    border-bottom: 2px solid #00ffff;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
